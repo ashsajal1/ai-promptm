@@ -12,4 +12,8 @@
         @apply border border-primary hover:ring-1 hover:ring-primary transition-all duration-200 rounded p-2 text-primary text-sm;
     }
 
+    .gradient-text {
+        @apply bg-gradient-to-r from-violet-600 to-blue-600 bg-clip-text text-transparent;
+    }
+
 }
