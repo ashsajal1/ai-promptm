@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { PromptCardComponent } from './prompt-card/prompt-card.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [PromptCardComponent],
+  imports: [CommonModule],
+  exports: [PromptCardComponent],
 })
-export class ComponentsModule { }
+export class ComponentsModule {}
