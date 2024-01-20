@@ -7,15 +7,18 @@ import { Component } from '@angular/core';
 })
 export class PromptCardComponent {
   copied: boolean = false;
-  promtText: string = 'This is prompt text';
+  promptText: string = 'This is prompt text';
 
   handleCopy() {
-    this.copied = true;
-    // console.log(this.copied)
-
-    setTimeout(() => {
-      this.copied = false;
-      // console.log(this.copied)
-    }, 1000);
+    navigator.clipboard.writeText(this.promptText)
+      .then(() => {
+        this.copied = true;
+        setTimeout(() => {
+          this.copied = false;
+        }, 1000);
+      })
+      .catch((error) => {
+        console.error('Failed to copy text: ', error);
+      });
   }
 }
