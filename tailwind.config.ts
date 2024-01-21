@@ -11,6 +11,25 @@ module.exports = {
         light: slate[50],
         dark: gray[700],
       },
+      animation: {
+        blob: 'blob 12s infinite',
+      },
+      keyframes: {
+        blob: {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '33%': {
+            transform: 'translateX(50%)',
+          },
+          '66%': {
+            transform: 'translateX(-50%)',
+          },
+          '100%': {
+            transform: 'translateX(0)',
+          },
+        },
+      },
     },
   },
   plugins: [],

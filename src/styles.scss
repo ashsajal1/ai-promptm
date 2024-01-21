@@ -16,4 +16,16 @@
         @apply bg-gradient-to-r from-violet-600 to-blue-600 bg-clip-text text-transparent;
     }
 
+};
+
+@layer utilities {
+    .aminate-delay-2 {
+        animation-delay: 2s;
+    }
+    .aminate-delay-4 {
+        animation-delay: 4s;
+    }
+    .aminate-delay-6 {
+        animation-delay: 6s;
+    }
 }
