@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HeroComponent } from './hero/hero.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PromptCardComponent } from './components/prompt-card/prompt-card.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     HeroComponent,
-    FooterComponent
+    FooterComponent,
+    PromptCardComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule
