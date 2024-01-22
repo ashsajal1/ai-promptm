@@ -5,6 +5,8 @@ import { HeroComponent } from './components/hero/hero.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PromptCardComponent } from './components/prompt-card/prompt-card.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { SigninComponent } from './pages/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import { HomeComponent } from './pages/home/home.component';
     HeroComponent,
     FooterComponent,
     PromptCardComponent,
-    HomeComponent
+    HomeComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     CommonModule
