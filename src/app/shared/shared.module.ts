@@ -7,6 +7,7 @@ import { PromptCardComponent } from './components/prompt-card/prompt-card.compon
 import { HomeComponent } from './pages/home/home.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { SigninComponent } from './pages/signin/signin.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SigninComponent } from './pages/signin/signin.component';
     SigninComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [NavbarComponent, HeroComponent, FooterComponent] 
 })
