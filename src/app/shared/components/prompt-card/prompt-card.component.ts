@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-prompt-card',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PromptCardComponent {
   copied: boolean = false;
-  promptText: string = 'This is prompt text';
+  @Input() promptText: string = '';
 
   handleCopy() {
     navigator.clipboard.writeText(this.promptText)
