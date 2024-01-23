@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { RouterModule } from '@angular/router';
+import { BlobComponent } from './components/blob/blob.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +18,13 @@ import { RouterModule } from '@angular/router';
     PromptCardComponent,
     HomeComponent,
     SignupComponent,
-    SigninComponent
+    SigninComponent,
+    BlobComponent
   ],
   imports: [
     CommonModule,
     RouterModule
   ],
-  exports: [NavbarComponent, HeroComponent, FooterComponent] 
+  exports: [NavbarComponent, HeroComponent, FooterComponent, BlobComponent], 
 })
 export class SharedModule { }
