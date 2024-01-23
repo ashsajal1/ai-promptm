@@ -1,12 +1,7 @@
 <app-hero />
 
 <section class="flex flex-wrap justify-center gap-2 mt-12 px-2">
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
-  <app-prompt-card />
+  <div *ngFor="let prompt of prompts">
+    <app-prompt-card [promptText]="prompt"></app-prompt-card>
+  </div>
 </section>
