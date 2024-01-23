@@ -6,4 +6,11 @@
 2. Navigate to the project directory: `cd ai-promptm`
 3. Install the dependencies: `npm install`
 4. Start the development server: `ng serve`
-5. Open your browser and visit `http://localhost:4200`## ContributingContributions are welcome! If you'd like to contribute to the AI Prompt Marketplace project, please follow the guidelines in the [CONTRIBUTING.md](https://github.com/ashsajal1/ai-promptm/blob/main/CONTRIBUTING.md) file.## Code of ConductPlease review and adhere to the [Code of Conduct](https://github.com/ashsajal1/ai-promptm/blob/main/CODE_OF_CONDUCT.md) when participating in the AI Prompt Marketplace community.## LicenseThis project is licensed under the [MIT License](https://github.com/ashsajal1/ai-promptm/blob/main/LICENSE).## ContactIf you have any questions or suggestions, feel free to open an issue on the [GitHub repository](https://github.com/ashsajal1/ai-promptm) or reach out to the project maintainer.---Enjoy exploring and contributing to the AI Prompt Marketplace! We appreciate your support and hope this platform sparks creativity and innovation in AI projects.
+5. Open your browser and visit `http://localhost:4200`
+
+#### ContributingContributions are welcome! If you'd like to contribute to the AI Prompt Marketplace project, please follow the guidelines in the [CONTRIBUTING.md](https://github.com/ashsajal1/ai-promptm/blob/main/CONTRIBUTING.md) file.
+#### Code of ConductPlease review and adhere to the [Code of Conduct](https://github.com/ashsajal1/ai-promptm/blob/main/CODE_OF_CONDUCT.md) when participating in the AI Prompt Marketplace community.
+#### LicenseThis project is licensed under the [MIT License](https://github.com/ashsajal1/ai-promptm/blob/main/LICENSE).
+#### ContactIf you have any questions or suggestions, feel free to open an issue on the [GitHub repository](https://github.com/ashsajal1/ai-promptm) or reach out to the project maintainer.
+
+---Enjoy exploring and contributing to the AI Prompt Marketplace! We appreciate your support and hope this platform sparks creativity and innovation in AI projects.
