@@ -1,5 +1,7 @@
 # AI Prompt Marketplace
 
+![Cover Image](./ai-promptm-cover.png)
+
 [![License][]](https://github.com/ashsajal1/ai-promptm/blob/main/LICENSE)AI Prompt Marketplace is a web application built with Angular. It provides a platform for developers to discover and share AI prompts, which can be used to generate creative ideas and assist in various AI-related projects.## Features- Browse a collection of AI prompts- Search prompts by keywords or tags- Create an account and submit your own prompts- Like and comment on prompts- Bookmark prompts for future reference- Follow other users and receive updates on their prompts- Responsive design for a seamless experience across devices## Live DemoCheck out the live demo of the AI Prompt Marketplace: [ai-promptm.vercel.app](https://ai-promptm.vercel.app)## InstallationTo run the AI Prompt Marketplace locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/ashsajal1/ai-promptm.git`
