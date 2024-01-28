@@ -12,7 +12,7 @@ module.exports = {
         dark: gray[700],
       },
       animation: {
-        blob: 'blob 12s infinite',
+        blob: 'blob 4s infinite',
       },
       keyframes: {
         blob: {
@@ -20,10 +20,10 @@ module.exports = {
             transform: 'translateX(0)',
           },
           '33%': {
-            transform: 'translateX(50%)',
+            transform: 'translateX(25%)',
           },
           '66%': {
-            transform: 'translateX(-10%)',
+            transform: 'translateX(-5%)',
           },
           '100%': {
             transform: 'translateX(0)',
